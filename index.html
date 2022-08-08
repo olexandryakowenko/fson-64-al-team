@@ -32,59 +32,93 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="">
+    <header class="header">
+      <a href="" class="header-logo link">
         <img src="./images/logos/logo.svg" alt="logo" />
         Finance Ledger
       </a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
+      <nav class="header-nav">
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Home</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">About</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Cases</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Blog</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-  <!-- Main -->
+    <!-- Main -->
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+      <section class="hero">
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <button class="hero-btn" type="button">Read More</button>
       </section>
 
       <section>
         <h2>About</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Investmant Banking</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
+            </p>
           </li>
           <li>
             <h3>Portfolio Manager</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
+            </p>
           </li>
           <li>
             <h3>Tax & Custudio</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
+            </p>
           </li>
         </ul>
       </section>
 
       <section>
-        <img src="./images/solutions/solutions.jpg" alt="team">
+        <img src="./images/solutions/solutions.jpg" alt="team" />
         <p>What you are looking for</p>
         <h2>We provide bespoke solutions</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
-        aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
         <button type="button">Read More</button>
       </section>
-
     </main>
   </body>
 </html>
