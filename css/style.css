@@ -53,3 +53,6 @@ body {
 
   padding: 10px 30px 10px 41px;
 }
+.footer {
+  background-color: var(--primary-text-color);
+}
