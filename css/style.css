@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: var(--primary-text-color);
   background-color: #f4f4f4;
@@ -203,4 +203,18 @@ address {
 
 .footer {
   background-color: var(--primary-text-color);
+}
+
+.social-icon {
+  fill: var(--secondary-text-color);
+}
+
+.social-link {
+  display: inline-block;
+  height: 0;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--accent-color);
 }
