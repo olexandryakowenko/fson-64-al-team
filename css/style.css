@@ -59,6 +59,20 @@ address {
   padding: 0 28px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* header */
 
 .header {
@@ -132,7 +146,7 @@ address {
 }
 
 .hero-btn {
-  display:inline-block;
+  display: inline-block;
   background-color: var(--accent-color);
   border-radius: 5px;
 
@@ -149,7 +163,42 @@ address {
 
 .hero-btn:hover,
 .hero-btn:focus {
-opacity: 0.8;  
+  opacity: 0.8;
+}
+
+/* ABOUT */
+
+.about {
+  padding-top: 122px;
+  padding-bottom: 19px;
+}
+
+.about .container {
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.about-list {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+}
+
+.about-item {
+  flex-basis: calc((100% - 142px) / 3);
+}
+
+.about-title {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.about-text {
+  line-height: 1.56;
+  text-align: center;
 }
 
 .footer {
