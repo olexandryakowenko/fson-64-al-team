@@ -106,12 +106,16 @@ address {
   color: var(--secondary-text-color);
 }
 /* hero */
+
 .hero {
+  padding-top: 259px;
+  padding-bottom: 284px;
   background-color: #5e5e5e;
   text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 45px;
   font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
@@ -120,6 +124,7 @@ address {
 }
 
 .hero-text {
+  margin-bottom: 29px;
   font-size: 22px;
   line-height: 1.67;
   text-align: center;
@@ -127,6 +132,7 @@ address {
 }
 
 .hero-btn {
+  display:inline-block;
   background-color: var(--accent-color);
   border-radius: 5px;
 
@@ -140,6 +146,12 @@ address {
 
   padding: 10px 30px 10px 41px;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+opacity: 0.8;  
+}
+
 .footer {
   background-color: var(--primary-text-color);
 }
