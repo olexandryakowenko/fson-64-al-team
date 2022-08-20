@@ -42,73 +42,89 @@
       rel="stylesheet"
     />
 
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.0.0/normalize.min.css"
+    />
+
     <!-- styles -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <a href="" class="header-logo link">
-        <img src="./images/logos/logo.svg" alt="logo" />
-        Finance Ledger
-      </a>
-      <nav class="header-nav">
-        <ul class="header-nav-list list">
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">Home</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">About</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">Cases</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">Blog</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="" class="header-logo link">
+          <img
+            class="header-logo-img"
+            src="./images/logos/logo.svg"
+            alt="logo"
+          />
+          <span class="accent">Finance</span> Ledger
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">About</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Cases</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Blog</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Main -->
     <main>
       <section class="hero">
-        <h1 class="hero-title">The Sky Is The Limit</h1>
-        <p class="hero-text">We provide world class financial assistance</p>
-        <button class="hero-btn" type="button">Read More</button>
+        <div class="conteiner">
+          <h1 class="hero-title">The Sky Is The Limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <a href="#" class="hero-btn link">Read More</a>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <h2 class="visually-hidden">About</h2>
+          <ul class="about-list list">
+            <li class="about-item">
+              <h3 class="about-title">Investmant Banking</h3>
+              <p class="about-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur, necessitatibus!
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="about-title">Portfolio Manager</h3>
+              <p class="about-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur, necessitatibus!
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="about-title">Tax & Custudio</h3>
+              <p class="about-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur, necessitatibus!
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section>
-        <h2>About</h2>
-        <ul class="list">
-          <li>
-            <h3>Investmant Banking</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, necessitatibus!
-            </p>
-          </li>
-          <li>
-            <h3>Portfolio Manager</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, necessitatibus!
-            </p>
-          </li>
-          <li>
-            <h3>Tax & Custudio</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, necessitatibus!
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <img src="./images/solutions/solutions.jpg" alt="team" />
+        <img src="./images/solutions/solutions.jpg" alt="team" loading="lazy" />
         <p>What you are looking for</p>
         <h2>We provide bespoke solutions</h2>
         <p>
@@ -117,32 +133,26 @@
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <button type="button">Read More</button>
+        <a href="#">Read More</a>
       </section>
 
       <!-- section Business Cases-->
       <section>
-        <ul>
-          <li>
-            <p>This is what we do</p>
-          </li>
-          <li>
-            <h2>Business Cases</h2>
-          </li>
-          <li>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto, sapiente!
-            </p>
-          </li>
-        </ul>
+        <p>This is what we do</p>
+        <h2>Business Cases</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+
         <ul>
           <li>
             <img
               src="./images/business-cases/bc-1.jpg"
               alt="Square-table conference"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -150,7 +160,8 @@
               src="./images/business-cases/bc-2.jpg"
               alt="Notebook, pen and charts"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -158,7 +169,8 @@
               src="./images/business-cases/bc-3.jpg"
               alt="Handshaking"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -166,7 +178,8 @@
               src="./images/business-cases/bc-4.jpg"
               alt="Six hands together"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -174,7 +187,8 @@
               src="./images/business-cases/bc-5.jpg"
               alt="Laptop and a hand"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -182,7 +196,8 @@
               src="./images/business-cases/bc-6.jpg"
               alt="Skyscrapers"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -190,7 +205,8 @@
               src="./images/business-cases/bc-7.jpg"
               alt="A girl in front and some people behind"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
           <li>
@@ -198,7 +214,8 @@
               src="./images/business-cases/bc-8.jpg"
               alt="Co-working"
               width="320"
-              height="213"
+              height="214"
+              loading="lazy"
             />
           </li>
         </ul>
@@ -214,12 +231,13 @@
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <button type="button">Read Our Blog</button>
+        <a href="#">Read Our Blog</a>
         <img
           src="./images/blog/read-our-blog.jpg"
           alt="Table with notebooks and ipad"
           width="680"
           height="517"
+          loading="lazy"
         />
       </section>
       <!--section Our Professional Team-->
@@ -236,6 +254,8 @@
               src="./images/team/team-1.jpg"
               alt="Foto John Doe"
               width="420"
+              height="280"
+              loading="lazy"
             />
             <h3>John Doe</h3>
             <p>President</p>
@@ -245,6 +265,8 @@
               src="./images/team/team-2.jpg"
               alt="Foto of Jane Doe"
               width="428"
+              height="280"
+              loading="lazy"
             />
             <h3>Jane Doe</h3>
             <p>Vice-President</p>
@@ -254,6 +276,8 @@
               src="./images/team/team-3.jpg"
               alt="FOTO Steve Smith"
               width="420"
+              height="280"
+              loading="lazy"
             />
             <h3>Steve Smith</h3>
             <p>Marketing Head</p>
@@ -284,7 +308,7 @@
           </a>
         </li>
       </ul>
-      <p>Copyright © 2021 - FinanceLedger</p>
+      <p>Copyright &#169; 2022 - FinanceLedger</p>
     </footer>
   </body>
 </html>
