@@ -233,7 +233,7 @@ address {
 
 /* ===== Cases ===== */
 
-.cases .container {
+.cases.container {
   display: flex;
 }
 
