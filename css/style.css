@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: var(--primary-text-color);
   background-color: #f4f4f4;
@@ -126,6 +126,18 @@ address {
   padding-bottom: 284px;
   background-color: #5e5e5e;
   text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
