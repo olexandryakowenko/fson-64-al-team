@@ -200,6 +200,24 @@ address {
   flex-basis: calc((100% - 142px) / 3);
 }
 
+.use-icons {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+   align-items: center;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background-color: #28a745;
+  margin-bottom: 15px;
+}
+
+.about-icons {
+  display: block;
+  /* margin: auto; */
+  /* outline: 1px solid tomato; */
+}
+
 .about-title {
   margin-bottom: 16px;
   font-weight: 400;
