@@ -294,3 +294,45 @@ address {
 .social-link:focus .social-icon {
   fill: var(--accent-color);
 }
+
+/* Blog-post */
+
+.blog-post {
+  padding-top: 112px;
+  padding-bottom: 113px;
+  background-image: url(../images/blog/read-our-blog.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: #0284d0;
+}
+
+.blog-post-subtitle {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.blog-post-title {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+}
+
+.blog-post-desc {
+  max-width: 606px;
+  margin-bottom: 17px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.blog-post-btn {
+  display: inline-block;
+  padding: 11px 31px 10px 42px;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
