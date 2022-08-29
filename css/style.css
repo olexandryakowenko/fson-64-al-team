@@ -246,22 +246,19 @@ address {
 .suptitle {
   font-size: 20px;
   line-height: 1.65;
-  color: var(--secondary-text-color);
 }
 
-.cases-title {
+.title {
   margin-bottom: 26px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
-  color: var(--secondary-text-color);
 }
 
-.cases-text {
+.text {
   margin-bottom: 28px;
   font-size: 18px;
   line-height: 1.56;
-  color: var(--secondary-text-color);
 }
 
 .read-btn {
@@ -274,8 +271,45 @@ address {
   line-height: 1.56;
   align-items: center;
   justify-content: center;
+}
+
+.light {
   color: var(--secondary-text-color);
 }
+
+/* ===== Business Cases ===== */
+
+.business-cases {
+  text-align: center;
+  padding-top: 47px;
+  padding-bottom: 50px;
+}
+
+.suptitle.dark {
+  margin-bottom: 15px;
+}
+
+.title.dark {
+  margin-bottom: 34px;
+}
+
+.business-cases .text {
+  margin-bottom: 39px;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 8px;
+  row-gap: 7px;
+}
+
+.dark {
+  color: var(--primary-text-color);
+}
+
+/* ===== ===== */
 
 .footer {
   background-color: var(--primary-text-color);
