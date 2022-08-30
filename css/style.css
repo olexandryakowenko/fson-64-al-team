@@ -305,10 +305,6 @@ address {
   row-gap: 7px;
 }
 
-.dark {
-  color: var(--primary-text-color);
-}
-
 /* ===== ===== */
 
 .footer {
