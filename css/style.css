@@ -356,7 +356,7 @@ address {
   text-align: center;
   font-size: 20px;
   line-height: 1.65px;
-   margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .team-title {
@@ -369,8 +369,8 @@ address {
 
 .team-text {
   text-align: center;
-   line-height: 1.65px;
-   margin-bottom: 45px;
+  line-height: 1.65px;
+  margin-bottom: 45px;
 }
 
 .team-list {
@@ -458,7 +458,6 @@ address {
   border: 1px solid transparent;
   border-radius: 5px;
 }
-
 
 /* footer */
 
