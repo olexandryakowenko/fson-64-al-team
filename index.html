@@ -286,14 +286,16 @@
         </div>
       </section>
       <!--section Our Professional Team-->
-      <section>
-        <p>Who we are</p>
-        <h2>Our Professional Team</h2>
-        <p>
+
+      <section class="team">
+        <div class="container">
+          <p class="team-suptitle">Who we are</p>
+        <h2 class="team-title">Our Professional Team</h2>
+        <p class="team-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           sapiente!
         </p>
-        <ul class="list">
+        <ul class="list team-list">
           <li>
             <img
               src="./images/team/team-1.jpg"
@@ -302,8 +304,10 @@
               height="280"
               loading="lazy"
             />
-            <h3>John Doe</h3>
-            <p>President</p>
+            <div class="member-wrap">
+              <h3 class="team-name">John Doe</h3>
+            <p class="team-position">President</p>
+            </div>
           </li>
           <li>
             <img
@@ -313,8 +317,10 @@
               height="280"
               loading="lazy"
             />
-            <h3>Jane Doe</h3>
-            <p>Vice-President</p>
+            <div class="member-wrap">
+              <h3 class="team-name">Jane Doe</h3>
+            <p class="team-position">Vice-President</p>
+            </div>
           </li>
           <li>
             <img
@@ -324,14 +330,32 @@
               height="280"
               loading="lazy"
             />
-            <h3>Steve Smith</h3>
-            <p>Marketing Head</p>
+            <div class="member-wrap">
+              <h3 class="team-name">Steve Smith</h3>
+            <p class="team-position">Marketing Head</p>
+            </div>
           </li>
         </ul>
+        </div>
+      </section>
+      <!-- section callback -->
+      <section class="callback container">
+        <h2 class="visually-hidden">callback</h2>
+        <img src="./images/callback-img.jpg" alt="human work in office" />
+        <div class="callback-form">
+          <h3 class="callback-title">Request Callback</h3>
+          <div class="input-field-name">
+            <p class="name-data-form">Enter your name</p>
+          </div>
+          <div class="input-field-mail">
+            <p class="mail-data-form">Enter email*</p>
+          </div>
+          <button class="btn-callback" type="button">Send</button>
+        </div>
       </section>
     </main>
     <footer class="footer hero-text">
-      <ul class="list">
+      <ul class="footer-icon list">
         <li>
           <a
             class="social-link"
