@@ -349,7 +349,7 @@ address {
 
 /* ===== footer ===== */
 
-.footer {
+/* .footer {
   background-color: var(--primary-text-color);
 }
 
@@ -366,4 +366,4 @@ address {
 .social-link:focus .social-icon {
   fill: var(--accent-color);
 }
-
+ */
