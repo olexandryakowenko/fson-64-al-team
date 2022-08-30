@@ -304,27 +304,6 @@ address {
   column-gap: 8px;
   row-gap: 7px;
 }
-
-/* ===== ===== */
-
-.footer {
-  background-color: var(--primary-text-color);
-}
-
-.social-icon {
-  fill: var(--secondary-text-color);
-}
-
-.social-link {
-  display: inline-block;
-  height: 0;
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: var(--accent-color);
-}
-
 /* Blog-post */
 
 .blog-post {
@@ -366,3 +345,25 @@ address {
   line-height: 1.56;
   color: var(--secondary-text-color);
 }
+
+
+/* ===== ===== */
+
+.footer {
+  background-color: var(--primary-text-color);
+}
+
+.social-icon {
+  fill: var(--secondary-text-color);
+}
+
+.social-link {
+  display: inline-block;
+  height: 0;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--accent-color);
+}
+
