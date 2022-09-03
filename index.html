@@ -53,39 +53,37 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="top-position">
-      <header class="header">
-        <div class="container">
-          <a href="" class="header-logo link">
-            <img
-              class="header-logo-img"
-              src="./images/logos/logo.svg"
-              alt="logo"
-            />
-            <span class="accent">Finance</span> Ledger
-          </a>
-          <nav class="header-nav">
-            <ul class="header-nav-list list">
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="">Home</a>
-              </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="">About</a>
-              </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="">Cases</a>
-              </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="">Blog</a>
-              </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link link" href="">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    </div>
+    <header class="header">
+      <div class="container">
+        <a href="" class="header-logo link">
+          <img
+            class="header-logo-img"
+            src="./images/logos/logo.svg"
+            alt="logo"
+          />
+          <span class="accent">Finance</span> Ledger
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">About</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Cases</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Blog</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <!-- Main -->
     <main>
@@ -93,7 +91,15 @@
         <div class="container">
           <h1 class="hero-title">The Sky Is The Limit</h1>
           <p class="hero-text">We provide world class financial assistance</p>
-          <a href="#" class="hero-btn link">Read More</a>
+          <a href="#" class="hero-btn link">
+            <svg class="icon-arrov" width="20" height="20">
+              <use
+                aria-label="icon-arrow"
+                href="./images/sprite.svg#icon-arrow-right"
+              ></use>
+            </svg>
+            Read More</a
+          >
         </div>
       </section>
 
@@ -106,8 +112,8 @@
                 <svg
                   aria-label="icon university"
                   class="about-icons"
-                  width="35px"
-                  height="35px"
+                  width="35"
+                  height="35"
                 >
                   <use href="./images/sprite.svg#icon-university"></use>
                 </svg>
@@ -124,8 +130,8 @@
                 <svg
                   aria-label="icon book"
                   class="about-icons"
-                  width="35px"
-                  height="35px"
+                  width="35"
+                  height="35"
                 >
                   <use href="./images/sprite.svg#icon-book"></use>
                 </svg>
@@ -141,8 +147,8 @@
                 <svg
                   aria-label="icon pencil"
                   class="about-icons"
-                  width="35px"
-                  height="35px"
+                  width="35"
+                  height="35"
                 >
                   <use href="./images/sprite.svg#icon-pencil"></use>
                 </svg>
@@ -157,347 +163,352 @@
         </div>
       </section>
 
-      <section class="cases container">
-        <img src="./images/solutions/solutions.jpg" alt="team" loading="lazy" />
-        <div class="cases-content">
-          <p class="suptitle light">What you are looking for</p>
-          <h2 class="title light">We provide bespoke solutions</h2>
-          <p class="text light">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
-          </p>
-          <a class="read-btn light link" href="#">
-            <!-- <svg class="icon-arrov" width="32px" height="32px">
-              <use
-                aria-label="icon-arrow"
-                href="./images/sprite.svg#icon-arrow-right"
-              ></use>
-            </svg> -->
-            Read More</a
-          >
+      <section class="solutions">
+        <div class="container">
+          <img
+            src="./images/solutions/solutions.jpg"
+            alt="team"
+            loading="lazy"
+          />
+          <div class="solutions-content">
+            <p class="section-suptitle section-suptitle-light light">
+              What you are looking for
+            </p>
+            <h2 class="section-title section-title-light light">
+              We provide bespoke solutions
+            </h2>
+            <p class="section-text section-text-light light">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <a class="solutions-btn light link" href="#"> Read More</a>
+          </div>
         </div>
       </section>
 
       <!-- section Business Cases-->
 
-      <section class="business-cases container">
-        <p class="suptitle">This is what we do</p>
-        <h2 class="title">Business Cases</h2>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-
-        <ul class="cases-list list">
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-1.jpg"
-              alt="Square-table conference"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-2.jpg"
-              alt="Notebook, pen and charts"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-3.jpg"
-              alt="Handshaking"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-4.jpg"
-              alt="Six hands together"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-5.jpg"
-              alt="Laptop and a hand"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-6.jpg"
-              alt="Skyscrapers"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-7.jpg"
-              alt="A girl in front and some people behind"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./images/business-cases/bc-8.jpg"
-              alt="Co-working"
-              width="320"
-              height="214"
-              loading="lazy"
-            />
-          </li>
-        </ul>
-      </section>
-
-      <!-- Section Blog Post -->
-      <section class="blog-post">
+      <section class="business-cases">
         <div class="container">
-          <p class="blog-post-subtitle">April 16 2020</p>
-          <h2 class="blog-post-title">Blog Post One</h2>
-          <p class="blog-post-desc">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
+          <p class="section-suptitle section-suptitle-dark">
+            This is what we do
           </p>
-          <a class="blog-post-btn link" href="#">Read Our Blog</a>
-          <!-- <img
-              src="./images/blog/read-our-blog.jpg"
-              alt="Table with notebooks and ipad"
-              width="680"
-              height="517"
-              loading="lazy"
-            /> -->
-        </div>
-      </section>
-      
-       <!-- Section Blog Post One -->
-       <!-- <section class="cases container">
-        
-        <div class="blog-post-content">
-          <p class="blog-post-subtitle">April 16 2020</p>
-          <h2 class="blog-post-title">Blog Post One</h2>
-          <p class="blog-post-desc">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
+          <h2 class="section-title section-title-dark">Business Cases</h2>
+          <p class="section-text section-text-dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
           </p>
-          <a class="blog-post-btn link" href="#">Read Our Blog</a>
-            
-          
-        </div>
-        <img src="./images/blog/read-our-blog.jpg" alt="team" loading="lazy" />
-      </section> -->
-      <!--section Our Professional Team-->
 
-       <section class="team">
-        <div class="container">
-          <p class="team-suptitle">Who we are</p>
-        <h2 class="team-title">Our Professional Team</h2>
-        <p class="team-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul class="list team-list">
-          <li>
-           <div class="team-photo-wrap">
-             <img
-                src="./images/team/team-1.jpg"
-                alt="Foto John Doe"
-                width="420"
-                height="280"
+          <ul class="cases-list list">
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-1.jpg"
+                alt="Square-table conference"
+                width="320"
+                height="214"
                 loading="lazy"
               />
-         <ul class="team-icon list">
-            <li>
-              <a
-                class="social-link"
-                href="https://www.facebook.com/"
-                target="_blank"
-              >
-                <svg width="35" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
             </li>
-
-            <li>
-              <a class="social-link" href="https://twitter.com/" target="_blank">
-                <svg width="35" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-2.jpg"
+                alt="Notebook, pen and charts"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
-
-            <li>
-              <a
-                class="social-link"
-                href="https://www.youtube.com/"
-                target="_blank"
-              >
-                <svg width="45" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-youtube"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-3.jpg"
+                alt="Handshaking"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
-
-            <li>
-              <a
-                class="social-link"
-                href="https://www.linkedin.com/"
-                target="_blank"
-              >
-                <svg width="31" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-4.jpg"
+                alt="Six hands together"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
-          </ul>
-           </div>
-            <div class="member-wrap">
-              <h3 class="team-name">John Doe</h3>
-            <p class="team-position">President</p>
-            </div>
-          </li>
-          <li>
-            <div class="team-photo-wrap">
-            <img
-              src="./images/team/team-2.jpg"
-              alt="Foto of Jane Doe"
-              width="420"
-              height="280"
-              loading="lazy"
-            />
-            <ul class="team-icon list">
-            <li>
-              <a
-                class="social-link"
-                href="https://www.facebook.com/"
-                target="_blank"
-              >
-                <svg width="35" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-5.jpg"
+                alt="Laptop and a hand"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
-
-            <li>
-              <a class="social-link" href="https://twitter.com/" target="_blank">
-                <svg width="35" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-6.jpg"
+                alt="Skyscrapers"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
-
-            <li>
-              <a
-                class="social-link"
-                href="https://www.youtube.com/"
-                target="_blank"
-              >
-                <svg width="45" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-youtube"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-7.jpg"
+                alt="A girl in front and some people behind"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
-
-            <li>
-              <a
-                class="social-link"
-                href="https://www.linkedin.com/"
-                target="_blank"
-              >
-                <svg width="31" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
+            <li class="cases-list-item">
+              <img
+                src="./images/business-cases/bc-8.jpg"
+                alt="Co-working"
+                width="320"
+                height="214"
+                loading="lazy"
+              />
             </li>
           </ul>
-            </div>
-            <div class="member-wrap">
-              <h3 class="team-name">Jane Doe</h3>
-            <p class="team-position">Vice-President</p>
-            </div>
-          </li>
-          <li>
-            <div class="team-photo-wrap">
-            <img
-              src="./images/team/team-3.jpg"
-              alt="FOTO Steve Smith"
-              width="420"
-              height="280"
-              loading="lazy"
-            />
-            <ul class="team-icon list">
-            <li>
-              <a
-                class="social-link"
-                href="https://www.facebook.com/"
-                target="_blank"
-              >
-                <svg width="35" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
+        </div>
+      </section>
 
-            <li>
-              <a class="social-link" href="https://twitter.com/" target="_blank">
-                <svg width="35" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
+      <!-- Section Blog Post One -->
+      <section class="blog-post">
+        <div class="container">
+          <div class="blog-post-content">
+            <p class="section-suptitle-light section-suptitle light">
+              April 16 2020
+            </p>
+            <h2 class="section-title-light section-title light">
+              Blog Post One
+            </h2>
+            <p class="section-text-light section-text light">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <a class="blog-post-btn link" href="#">Read Our Blog</a>
+          </div>
+          <img
+            src="./images/blog/read-our-blog.jpg"
+            alt="team"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!--section Our Professional Team-->
 
+      <section class="team">
+        <div class="container">
+          <p class="section-suptitle-dark section-suptitle">Who we are</p>
+          <h2 class="section-title-dark section-title">
+            Our Professional Team
+          </h2>
+          <p class="section-text-dark section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="list team-list">
             <li>
-              <a
-                class="social-link"
-                href="https://www.youtube.com/"
-                target="_blank"
-              >
-                <svg width="45" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-youtube"></use>
-                </svg>
-              </a>
-            </li>
+              <div class="team-photo-wrap">
+                <img
+                  src="./images/team/team-1.jpg"
+                  alt="Foto John Doe"
+                  width="420"
+                  height="280"
+                  loading="lazy"
+                />
+                <ul class="team-icon list">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <svg width="35" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
 
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                    >
+                      <svg width="35" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                    >
+                      <svg width="45" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                    >
+                      <svg width="31" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="member-wrap">
+                <h3 class="team-name">John Doe</h3>
+                <p class="team-position">President</p>
+              </div>
+            </li>
             <li>
-              <a
-                class="social-link"
-                href="https://www.linkedin.com/"
-                target="_blank"
-              >
-                <svg width="31" height="35" class="social-icon">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
+              <div class="team-photo-wrap">
+                <img
+                  src="./images/team/team-2.jpg"
+                  alt="Foto of Jane Doe"
+                  width="420"
+                  height="280"
+                  loading="lazy"
+                />
+                <ul class="team-icon list">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <svg width="35" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                    >
+                      <svg width="35" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                    >
+                      <svg width="45" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                    >
+                      <svg width="31" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="member-wrap">
+                <h3 class="team-name">Jane Doe</h3>
+                <p class="team-position">Vice-President</p>
+              </div>
+            </li>
+            <li>
+              <div class="team-photo-wrap">
+                <img
+                  src="./images/team/team-3.jpg"
+                  alt="FOTO Steve Smith"
+                  width="420"
+                  height="280"
+                  loading="lazy"
+                />
+                <ul class="team-icon list">
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <svg width="35" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                    >
+                      <svg width="35" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                    >
+                      <svg width="45" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="social-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                    >
+                      <svg width="31" height="35" class="social-icon">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="member-wrap">
+                <h3 class="team-name">Steve Smith</h3>
+                <p class="team-position">Marketing Head</p>
+              </div>
             </li>
           </ul>
-            </div>
-            <div class="member-wrap">
-              <h3 class="team-name">Steve Smith</h3>
-            <p class="team-position">Marketing Head</p>
-            </div>
-          </li>
-        </ul>
         </div>
       </section>
       <!-- section callback -->
@@ -516,53 +527,55 @@
         </div>
       </section>
     </main>
-    <footer class="footer hero-text">
-      <ul class="footer-icon list">
-        <li>
-          <a
-            class="social-link"
-            href="https://www.facebook.com/"
-            target="_blank"
-          >
-            <svg width="35" height="35" class="social-icon">
-              <use href="./images/sprite.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-icon list">
+          <li>
+            <a
+              class="social-link"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <svg width="35" height="35" class="social-icon">
+                <use href="./images/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
 
-        <li>
-          <a class="social-link" href="https://twitter.com/" target="_blank">
-            <svg width="35" height="35" class="social-icon">
-              <use href="./images/sprite.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
+          <li>
+            <a class="social-link" href="https://twitter.com/" target="_blank">
+              <svg width="35" height="35" class="social-icon">
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
 
-        <li>
-          <a
-            class="social-link"
-            href="https://www.youtube.com/"
-            target="_blank"
-          >
-            <svg width="45" height="35" class="social-icon">
-              <use href="./images/sprite.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.youtube.com/"
+              target="_blank"
+            >
+              <svg width="45" height="35" class="social-icon">
+                <use href="./images/sprite.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
 
-        <li>
-          <a
-            class="social-link"
-            href="https://www.linkedin.com/"
-            target="_blank"
-          >
-            <svg width="31" height="35" class="social-icon">
-              <use href="./images/sprite.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <p>Copyright &#169; 2022 - FinanceLedger</p>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+            >
+              <svg width="31" height="35" class="social-icon">
+                <use href="./images/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-copy">Copyright &#169; 2022 - FinanceLedger</p>
+      </div>
     </footer>
   </body>
 </html>
