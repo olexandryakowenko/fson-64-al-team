@@ -331,6 +331,11 @@ address {
   background-position: top right;
   background-color: #0284d0;
 }
+.blog-post-content {
+  padding: 84px 44px 84px 30px;
+
+  background-color:#0284d0 ;
+}
 
 .blog-post-subtitle {
   margin-bottom: 5px;
