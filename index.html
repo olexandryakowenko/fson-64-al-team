@@ -513,18 +513,34 @@
       </section>
       <!-- section callback -->
       <section class="callback container">
-        <h2 class="visually-hidden">callback</h2>
         <img src="./images/callback-img.jpg" alt="human work in office" />
-        <div class="callback-form">
-          <h3 class="callback-title">Request Callback</h3>
-          <div class="input-field-name">
-            <p class="name-data-form">Enter your name</p>
-          </div>
-          <div class="input-field-mail">
-            <p class="mail-data-form">Enter email*</p>
-          </div>
-          <button class="btn-callback" type="button">Send</button>
-        </div>
+
+        <form class="callback-form">
+          <h2 class="callback-title">Request Callback</h2>
+
+          <label class="form-label"
+            ><span class="label-name">Name</span>
+            <input
+              placeholder="Enter your name"
+              class="form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+            />
+          </label>
+
+          <label class="label-name" for="user-email">Email</label>
+          <input
+            required
+            placeholder="Enter email*"
+            class="form-input form-input-email"
+            type="email"
+            name="user-email"
+            id="user-email"
+          />
+
+          <button class="btn-callback" type="submit">Send</button>
+        </form>
       </section>
     </main>
     <footer class="footer">
@@ -577,15 +593,5 @@
         <p class="footer-copy">Copyright &#169; 2022 - FinanceLedger</p>
       </div>
     </footer>
-    <section>
-      <h2>Conflict Nikolay</h2>
-      <p>conflict artem</p>
-    </section>
-    <section>
-      <h2>New Conflict Nikolay</h2>
-      <p>
-        conflict oleksandr
-      </p>
-    </section>
   </body>
 </html>
