@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "fson-64-al-team",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://olexandryakowenko.github.io/fson-64-al-team",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /fson-64-al-team/"
   },
   "repository": {
     "type": "git",
